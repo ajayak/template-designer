@@ -33,7 +33,7 @@ rules:
   no-var: 2
   object-curly-spacing: [ 2, 'always' ]
   quotes: [ 2, 'single' ]
-  semi: [ 2, 'never' ]
+  semi: [ 2, 'always' ]
   space-after-keywords: [ 2, 'always' ]
   space-before-blocks: [ 2, 'always' ]
   space-before-function-paren: [ 2, 'always' ]

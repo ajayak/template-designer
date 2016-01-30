@@ -16,6 +16,7 @@
     "deploy": "npm run dist && gh-pages -d dist",
     "dist": "npm run clean && npm run lint && set NODE_ENV=production webpack --config webpack.config.production.js",
     "lint": "eslint lib",
+    "lint:fix": "eslint lib --fix",
     "start": "npm run build && node server.js",
     "start:devtools": "npm run build && set DEVTOOLS=true node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
