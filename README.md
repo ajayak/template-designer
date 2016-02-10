@@ -12,3 +12,4 @@ npm start
 open http://localhost:3001
 ```
 
+Note: Thois project is on hold and not worked on.
